@@ -26,7 +26,7 @@ namespace RoutingIsFun.Controllers
             ViewBag.Query = Request.Query;
             //ViewBag.Str = v;
 
-            return View();
+            return View("Routing");
         }
 
 //        /gp/buyagain? ie = UTF8 & ref_ = nav_cs_buy_again_42b0b0f447e84602b6bbf4316ba59d2e
