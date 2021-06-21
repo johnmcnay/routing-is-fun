@@ -52,10 +52,15 @@ namespace RoutingIsFun
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-                endpoints.MapControllerRoute(
+/*                endpoints.MapControllerRoute(
                     name: "watch",
                     pattern: "watch",
                     new { routeName = "watch", controller = "Home", action = "watch" });
+
+                endpoints.MapControllerRoute(
+                    name: "buyagain",
+                    pattern: "gp/{path}",
+                    new { routeName = "buyagain", controller = "Home", action = "buyagain" });*/
             });
         }
     }
