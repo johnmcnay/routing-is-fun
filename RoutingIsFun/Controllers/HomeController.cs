@@ -49,7 +49,7 @@ namespace RoutingIsFun.Controllers
             return View("Routing");
         }
 
-        [Route("{year}/{month}/{day}/politics/{slug}")]
+        [Route("{year}/{month}/{day}/{category}/{slug}")]
         public IActionResult News()
         {
             ViewBag.Path = Request.Path.ToString();
